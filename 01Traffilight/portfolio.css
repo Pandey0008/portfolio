@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #212121;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3rem;
+    color: #f9f9f9;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+
+#about {
+    padding: 40px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 1.1rem;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Skills Section */
+#skills {
+    padding: 40px 0;
+    background-color: #f9f9f9;
+}
+
+#skills h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#skills ul {
+    list-style: none;
+    text-align: center;
+}
+
+#skills li {
+    display: inline-block;
+    margin: 10px 20px;
+    font-size: 1.2rem;
+}
+
+/* Projects Section */
+#projects {
+    padding: 40px 0;
+    background-color: #fff;
+}
+
+#projects h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project h3 {
+    font-size: 1.6rem;
+    color: #0073e6;
+}
+
+.project p {
+    font-size: 1.1rem;
+}
+
+/* Contact Section */
+#contact {
+    padding: 40px 0;
+    background-color: #f9f9f9;
+}
+
+#contact h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+#contact a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1rem;
+}
+#project1{
+    display: flex;
+}
+#project2{
+    display: flex;
+}
+#project3{
+    display: flex;
+}
+#project4{
+    display: flex;
+}
+#project5{
+    display: flex;
+}
+#project6{
+    display: flex;
+}
+#p1:hover{
+    text-decoration: underline;
+}
+#p2:hover{
+    text-decoration: underline;
+}
+#p3:hover{
+    text-decoration: underline;
+}
+#p4:hover{
+    text-decoration: underline;
+}
+#p5:hover{
+    text-decoration: underline;
+}
+#p6:hover{
+    text-decoration: underline;
+}
