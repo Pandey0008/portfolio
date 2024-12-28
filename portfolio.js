@@ -27,7 +27,7 @@ linkedin.addEventListener('click',function(){
     window.open('https://www.linkedin.com/in/shivansh-pandey-7a7a84218/','_blank')
 })
 const github=document.getElementById('github')
-linkedin.addEventListener('click',function(){
+github.addEventListener('click',function(){
     window.open('https://github.com/Pandey0008','_blank')
 })
  const emailButton = document.getElementById('emailButton');
