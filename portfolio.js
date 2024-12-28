@@ -28,7 +28,7 @@ linkedin.addEventListener('click',function(){
 })
 const github=document.getElementById('github')
 linkedin.addEventListener('click',function(){
-    window.open('https://www.linkedin.com/in/shivansh-pandey-7a7a84218/','_blank')
+    window.open('https://github.com/Pandey0008','_blank')
 })
  const emailButton = document.getElementById('emailButton');
  emailButton.addEventListener('click', function() {
@@ -38,3 +38,7 @@ linkedin.addEventListener('click',function(){
      const mailtoLink = `mailto:${recipient}`;
      window.location.href = mailtoLink;
  });
+const resume=document.getElementById('resume')
+resume.addEventListener('click',function(){
+    window.open('https://drive.google.com/file/d/1_uzl8hUNFPjBzau5kB-CH9JYYfKEx82q/view?usp=drive_link','_blank')
+})
