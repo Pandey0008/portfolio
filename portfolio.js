@@ -30,3 +30,20 @@ const github=document.getElementById('github')
 linkedin.addEventListener('click',function(){
     window.open('https://www.linkedin.com/in/shivansh-pandey-7a7a84218/','_blank')
 })
+
+
+ // Select the button element
+ const emailButton = document.getElementById('emailButton');
+
+ // Add a click event listener to the button
+ emailButton.addEventListener('click', function() {
+     // Define the mailto link with pre-filled email, subject, and body
+     const recipient = 'mailatshivm@gmail.com'; // The recipient's email
+     const subject = 'Hello!'; // The subject of the email
+     const body = 'This is a test email sent from JavaScript.'; // The body content of the email
+
+     // Create the mailto link
+     const mailtoLink = `mailto:${recipient}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+     window.location.href = mailtoLink;
+ });
